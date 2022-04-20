@@ -1,0 +1,80 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+.btn {
+    padding: 8px;
+    border: none;
+    background: var(--bg-button);
+    color: var(--bg-white);
+}
+
+:root {
+    --bg-button: #0061ff;
+    --bg-white: white;
+    --bg-hero: #b4d0e7;
+}
+
+/* Header */
+nav {
+    background-color: var(--bg-white);
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+header .row {
+    display: flex;
+    padding: 1.125rem;
+}
+
+header .col {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+header .col:nth-child(2) {
+    justify-content: flex-end;
+}
+
+header .col img {
+    padding-right: .5rem;
+}
+
+header .link {
+    display: flex;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    display: block;
+    padding: 0 .9375rem;
+    color: black;
+}
+
+/* Header Hero */
+.hero {
+    background-color: var(--bg-hero);
+    padding: 12.5rem;
+}
+
+.container-large {
+    margin: 0 auto;
+    max-width: 1200px;
+    border: .125rem solid white;
+    padding: 6.25rem;
+}
