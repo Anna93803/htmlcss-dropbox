@@ -21,14 +21,15 @@ body {
     --bg-button: #0061ff;
     --bg-white: white;
     --bg-hero: #b4d0e7;
+    --bg-border: #e2e2e4;
 }
 
+.section {
+    padding: 10.125rem 0;
+}
 /* Header */
 nav {
     background-color: var(--bg-white);
-}
-
-header {
     position: fixed;
     z-index: 10;
     top: 0;
@@ -78,6 +79,7 @@ header a {
 .container-large {
     margin: 0 auto;
     max-width: 1200px;
+    padding-top: 3.125rem;
 }
 
 .p-relative {
@@ -88,7 +90,6 @@ header a {
 .hero h1 {
     font-weight: 800;
     font-size: 4.375rem;
-    padding-bottom: 2.1875rem;
 }
 
 .hero .row {
@@ -114,3 +115,111 @@ header a {
 .hero-img {
     width: 100%;
 }
+
+/* Main */
+.container-small {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.section h2 {
+    font-size: 2.0625rem;
+    padding-bottom: 2.5rem;
+}
+
+.section .row {
+    display: flex;
+    gap: 1.875rem;
+}
+
+.section .col {
+    flex-grow: 1;
+    border: .0625rem solid var(--bg-border);
+    flex-basis: calc(100% / 3);
+}
+
+.top-card {
+    text-align: center;
+    border-bottom: .0625rem solid var(--bg-border);
+    padding: .375rem;
+}
+
+.selection {
+    padding-bottom: 2.5rem;
+}
+
+.center-card {
+    padding: 1.0625rem;
+}
+
+.center-card h4 {
+    font-weight: 800;
+    font-size: 1.25rem;
+    padding-bottom: .625rem;
+}
+
+.center-card p {
+    font-size: .875rem;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.center-card span {
+    color: #a4a5a6;
+    padding-right: .4375rem;
+}
+
+.list {
+    padding: 2.5rem 0;
+}
+
+.list li {
+    list-style: none;
+    padding-bottom: 1.25rem;
+}
+
+.list li i {
+    padding-right: .375rem;
+}
+
+.btn.btn-card {
+    width: 100%;
+    padding: .8125rem 0;
+    margin-bottom: 1.875rem;
+}
+
+hr {
+    margin: 2.8125rem 0;
+    width: 20%;
+}
+
+.fa-check {
+    color: #2371ff;
+}
+
+.list h5 {
+    font-weight: 800;
+    font-size: .9375rem;
+}
+
+/* .row-horizontal {
+    padding-top: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.col-horizzontal {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.center-card {
+    flex-grow: 1;
+}
+
+.col-hr {
+    border: .0625rem solid #e2e2e4; 
+} */
+
+
