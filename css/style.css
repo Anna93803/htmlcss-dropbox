@@ -6,6 +6,10 @@
 }
 
 /* Common */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .btn {
     padding: 8px;
     border: none;
@@ -32,26 +36,26 @@ header {
     left: 0;
 }
 
-header .row {
+nav .row {
     display: flex;
     padding: 1.125rem;
 }
 
-header .col {
+nav .col {
     display: flex;
     align-items: center;
     flex-grow: 1;
 }
 
-header .col:nth-child(2) {
+nav .col:nth-child(2) {
     justify-content: flex-end;
 }
 
-header .col img {
+nav .col img {
     padding-right: .5rem;
 }
 
-header .link {
+nav .link {
     display: flex;
 }
 
@@ -69,12 +73,44 @@ header a {
 /* Header Hero */
 .hero {
     background-color: var(--bg-hero);
-    padding: 12.5rem;
 }
 
 .container-large {
     margin: 0 auto;
     max-width: 1200px;
-    border: .125rem solid white;
-    padding: 6.25rem;
+}
+
+.p-relative {
+    position: relative;
+    top: 4.375rem;
+}
+
+.hero h1 {
+    font-weight: 800;
+    font-size: 4.375rem;
+    padding-bottom: 2.1875rem;
+}
+
+.hero .row {
+    display: flex;
+    padding-top: 1.875rem;
+}
+
+.p-hero {
+    padding-bottom: 1.875rem;
+    word-break: break-word;
+    inline-size: 22.375rem;
+}
+
+.fa-arrow-down {
+    font-size: 3.5rem;
+    padding-top: 4.0625rem;
+}
+
+.mb {
+    margin-bottom: 1.875rem;
+}
+
+.hero-img {
+    width: 100%;
 }
