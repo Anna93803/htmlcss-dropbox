@@ -1,0 +1,139 @@
+/* HOVER */
+.link li:hover {
+    cursor: pointer;
+    border-bottom: .0625rem solid black;
+}
+
+.btn-blue:hover {
+    background-color: #6595e3;
+}
+
+.btn-white:hover {
+    background-color: #f6f5f5;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+footer a:hover {
+    border-bottom: .0625rem solid white;
+}
+
+.brand-green:hover {
+    border: .75rem solid #1a7d75;
+}
+
+.brand-bordeaux:hover {
+    border: .75rem solid  #9d325c;
+}
+
+.brand-azure:hover {
+    border: .75rem solid  #0f5f7f;
+}
+
+.brand-red:hover {
+    border: .75rem solid #c33c3c;
+}
+
+.brand-dark-red:hover {
+    border: .75rem solid #9d1125;
+}
+
+.brand-celeste:hover {
+    border: .75rem solid #789bb8;
+}
+
+.brand-blue:hover {
+    border: .75rem solid #4359b2;
+}
+
+.brand-yellow:hover {
+    border: .75rem solid #bd9a04;
+}
+
+ /* FAQ */
+.d-block-faq ul li, .fa-chevron-down {
+    display: block;
+    cursor: pointer;
+} 
+
+.d-none, .fa-angle-up {
+    display: none;
+}
+
+.arrow {
+    position: relative;
+}
+
+.arrow i {
+    position: absolute;
+    right: 0;
+    bottom: .3125rem
+}
+
+.d-none p {
+    font-size: .8125rem;
+    font-weight: normal;
+}
+
+.d-none li {
+    border: none;
+    font-size: .875rem;
+    font-weight: normal;
+}
+
+.arrow:focus .fa-angle-up {
+    display: block;
+}
+
+.arrow:focus .fa-chevron-down {
+    display: none;
+}
+
+.d-block-faq ul li:focus .fa-angle-up {
+    display: block;
+}
+
+.d-block-faq ul li:focus .fa-chevron-down {
+    display: none;
+}
+
+.d-block-faq ul li:focus ul {
+    display: block;
+}
+
+.column ul li {
+    padding: 2.5rem 0;
+    border-bottom: .0625rem solid var(--bg-black);
+    font-weight: bold;
+    font-size: 1.0625rem;
+}
+
+/* SELECTION INPUT */
+.selection {
+    display: flex;
+}
+
+.input {
+    padding-right: .9375rem;
+}
+
+.input::before {
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    border: .25rem solid #0061ff;
+    border-radius: 1.25rem;
+}
+
+.input2::before {
+    content: "";
+    display: inline-block;
+    border: .0625rem solid gray;
+    height: 18px;
+    width: 18px;
+    border-radius: 1.25rem;
+}
